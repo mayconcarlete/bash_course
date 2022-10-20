@@ -30,3 +30,7 @@
 # $(env) e printenv - printam as variaveis de ambiente no terminal.
 # echo $(env)
 # echo $(printenv)
+
+# para criar uma variavel global, crie uma local e depois export com o comando export.
+# TEST_NAME=MAYCON
+# echo $(export TEST_NAME)
