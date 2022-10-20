@@ -1,0 +1,28 @@
+#! /bin/bash
+##################
+# print some important commands.
+##################
+
+# pwd - printa o path do arquivo.
+# echo "$(pwd)"
+
+# $PATH - lista de diretórios de programas executaveis.
+# echo $PATH
+
+# $USERNAME - printa o usuario logado.
+# echo $USERNAME
+
+# $TERM - tipo de terminal ou janela de terminal em uso.
+# echo $TERM
+
+# $HOME - printa o diretorio home do usuario logado.
+# echo $HOME
+
+# $UID - UID do usuario atual.
+# echo $UID
+
+# $RANDOM - Gera um numero alearório.
+# echo $RANDOM
+
+# $LANG - Retorna o idioma, especificado como locale.
+# echo $LANG
