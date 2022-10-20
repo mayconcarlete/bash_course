@@ -26,3 +26,7 @@
 
 # $LANG - Retorna o idioma, especificado como locale.
 # echo $LANG
+
+# $(env) e printenv - printam as variaveis de ambiente no terminal.
+# echo $(env)
+# echo $(printenv)
