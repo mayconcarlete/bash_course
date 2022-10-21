@@ -31,6 +31,9 @@
 # echo $(env)
 # echo $(printenv)
 
-# para criar uma variavel global, crie uma local e depois export com o comando export.
+# para criar uma variavel global, crie uma local e depois export com o comando export, unset vai remover a variavel do ambiente.
 # TEST_NAME=MAYCON
 # echo $(export TEST_NAME)
+
+# $SECONDS - va printar o tempo que o shell está aberto
+# echo $SECONDS
