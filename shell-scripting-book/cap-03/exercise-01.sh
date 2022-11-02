@@ -9,8 +9,8 @@
 function file_count {
   # ls get the list of files
   # pipe to wc with -l (-l)that returns the count of files and directories.
-  local COUNTER=$(ls | wc -l)
-  echo "${COUNTER}"
+  local NUMBER_OF_FILES=$(ls | wc -l)
+  echo "Number of files: ${NUMBER_OF_FILES}"
 }
 
 file_count
