@@ -11,7 +11,7 @@
 # Hint: man bash and read the section on the nullglob option.
 
 DATE=$(date +%F)
-FOLDER_PATH=~/Pictures/Screenshots
+FOLDER_PATH=~/Pictures/Screenshots/*.png
 FILES=$(ls ${FOLDER_PATH})
 for FILE in ${FILES}
 do
