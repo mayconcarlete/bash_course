@@ -6,7 +6,7 @@ case "${OPTION}" in
   [yY]|[yY][eE][sS])
     echo "You chose yes."
   ;;
-  no)
+  [nN]|[nN][oO])
     echo "You chose no."
   ;;
   *)
