@@ -9,6 +9,7 @@ case "${OPTION}" in
   [nN]|[nN][oO])
     echo "You chose no."
   ;;
+  # [yY]*) nesse caso qualquer palavra que começar com a letra Y
   *)
     echo "You chose an invalid option."
 esac
